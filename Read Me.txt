@@ -1,0 +1,15 @@
+Created:   November 1 2020
+(c) Copyright governed by MIT License.
+
+
+To edit, Add values wherever "ADD" is written in the .py files.
+
+Run locally using checkAddress function or on an AWS lambda using the lambda_handler function.
+
+
+
+There are 2 versions:
+	1) G999 MasterNode Alert
+		Sends an email every time it's run. If the public key is found, it returns details such as wallet balance and country.
+	2) G999 Masternode Alert - no address update
+		Only sends an email if the public key is not found and therefore the corrensponding VPS has crashed and needs to be rebooted ASAP.
